@@ -1,0 +1,5 @@
+In this homework problem, you will write a quick program to explore Zipf's Law. 
+
+Go to the Project Gutenberg website and download Alice in Wonderland by Lewis Carol (Plain Text UTF-8 format). Strip off the header, and thus consider only the text starting at "ALICE'S ADVENTURES IN WONDERLAND", just preceding "CHAPTER 1"; also, strip off the footer, eliminating the license agreement and other extraneous text, and thus consider only the text up through, and including, "THE END". Use this perl script to strip the text of punctuation obtaining the original text as a list of words. For example, on a unix based systems, you should run a command like
+parse.pl alice30.txt > output
+Write a quick program or script that counts word frequencies. For the most frequent 25 words and for the most frequent 25 additional words that start with the letter f (a total of 50 words), print the word, the number of times it occurs, its rank in the overall list of words, the probability of occurrence, and the product of the rank and the probability. Also indicate the total number of words and the total number of unique words that you found. 
